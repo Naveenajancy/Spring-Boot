@@ -56,8 +56,8 @@ JSP Dependencies:
 
 
 data.sql:
-you can add values directly into table by using data.sql file.
+you can add values directly into a table by using data.sql file.
 
-make sure to set spring.jpa.defer-datasource-initialization=true in the property file so tha data will be inserted after table creation.
+make sure to set spring.jpa.defer-datasource-initialization=true in the property file so tha data will be inserted after the table creation.
 
 
