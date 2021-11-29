@@ -1,4 +1,5 @@
-This project is a demo about how h2 database works. In this project you can enter and save employee information in the in memory database.
+In this project you can learn about the h2 in memory database.
+In the web page you can enter and save the empolyee information in the empolyee table.
 
 1. Spring Boot can auto-configure embedded h2 databases.
 2. Developer no need to provide connection URLs.
