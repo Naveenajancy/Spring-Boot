@@ -14,6 +14,7 @@ JPA - Java Persistence API :
 
 
 h2 - jpa  Dependencies: (runtime jars)
+```xml
  <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -23,9 +24,11 @@ h2 - jpa  Dependencies: (runtime jars)
     <artifactId>h2</artifactId>
     <scope>runtime</scope>
  </dependency>
+```
 
 JSP Dependencies:
 
+```xml
  <dependency>
    <groupId>org.apache.tomcat</groupId>
    <artifactId>tomcat-jasper</artifactId>
@@ -38,7 +41,7 @@ JSP Dependencies:
    <scope>provided</scope>
  </dependency>
 
-
+```
 
  Database Configuration :
  1. By default spring boot application connect database and gives url with the username sa and empty password.
