@@ -1,4 +1,5 @@
-This project is a demo about how h2 database works. In this project you can enter and save employee information in the in memory database.
+In this project you can learn about the h2 in memory database.
+In the web page you can enter and save the empolyee information in the empolyee table.
 
 1. Spring Boot can auto-configure embedded h2 databases.
 2. Developer no need to provide connection URLs.
@@ -13,6 +14,7 @@ JPA - Java Persistence API :
 
 
 h2 - jpa  Dependencies: (runtime jars)
+```xml
  <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -22,9 +24,11 @@ h2 - jpa  Dependencies: (runtime jars)
     <artifactId>h2</artifactId>
     <scope>runtime</scope>
  </dependency>
+```
 
 JSP Dependencies:
 
+```xml
  <dependency>
    <groupId>org.apache.tomcat</groupId>
    <artifactId>tomcat-jasper</artifactId>
@@ -37,7 +41,7 @@ JSP Dependencies:
    <scope>provided</scope>
  </dependency>
 
-
+```
 
  Database Configuration :
  1. By default spring boot application connect database and gives url with the username sa and empty password.
